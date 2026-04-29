@@ -6,6 +6,8 @@ This repository is intended only to explain the scripts that were developed duri
 
 All automation and workflow implementation for this project were performed using Python and Brightway2.
 
+The main purpose of these scripts was to automate the complete Life Cycle Assessment (LCA) pipeline.
+
 No confidential Fraunhofer ISE data, scripts, XML files, proprietary packages, or internal results are being shared in this repository.
 
 ---
@@ -42,9 +44,9 @@ Perform Life Cycle Assessment (LCA) using the results from Step 2 and extract th
 
 Carry out the necessary supporting calculations required before final database integration.
 
-### Step 5: Upload Data into the ecoinvent Database
+### Step 5: Upload Data into the ecoinvent Database and Analyze LCA Results
 
-Upload the final processed data into the ecoinvent database.
+Upload the final processed data into the ecoinvent database and analyze the resulting LCA outcomes for further evaluation and interpretation.
 
 ---
 
