@@ -1,10 +1,12 @@
 # Note
 
-No data confidential to Fraunhofer ISE is being used in this repository.
+The scripts, data, internal packages, and generated outputs related to this project are confidential to Fraunhofer ISE and are therefore not included in this repository.
 
-This repository contains only the scripts and workflow structure used for updating the ecoinvent database. All proprietary datasets, XML files, confidential outputs, and internal Fraunhofer ISE packages are excluded from this repository.
+This repository is intended only to explain the scripts that were developed during the project, their purpose, and the overall workflow used for updating the ecoinvent database.
 
-The original data, generated results, and supporting packages used during the actual project are confidential to Fraunhofer ISE and are therefore not included.
+All automation and workflow implementation for this project were performed using Python and Brightway2.
+
+No confidential Fraunhofer ISE data, scripts, XML files, proprietary packages, or internal results are being shared in this repository.
 
 ---
 
@@ -12,15 +14,15 @@ The original data, generated results, and supporting packages used during the ac
 
 ## Step 1: Updating the ecoinvent Database using Level 1 Flows
 
-A script was created to update the ecoinvent database using the Level 1 flow data provided by the Fraunhofer supervisor.
+A script was developed using Python and Brightway2 to update the ecoinvent database using the Level 1 flow data provided by the Fraunhofer supervisor.
 
-This step focuses on processing the provided Level 1 flow information and integrating it into the ecoinvent database structure.
+The purpose of this script was to process the provided Level 1 flow information and integrate it into the ecoinvent database structure.
 
 ---
 
 ## Step 2: Updating the ecoinvent Database using Level 2 + Level 3 Flows
 
-A second script was developed to update the ecoinvent database using Level 2 and Level 3 flows.
+A second script was developed using Python and Brightway2 to update the ecoinvent database using Level 2 and Level 3 flows.
 
 This process consists of the following 5 steps:
 
@@ -48,4 +50,4 @@ Upload the final processed data into the ecoinvent database.
 
 # Additional Note
 
-The internal packages developed and used to perform these operations are also confidential to Fraunhofer ISE and are not included in this repository.
+The supporting packages developed and used to perform these operations are also confidential to Fraunhofer ISE and are not included in this repository.
